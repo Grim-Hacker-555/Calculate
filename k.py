@@ -1,19 +1,29 @@
 # Calculate
-yy = input ("                 ****  : ")
-dd = input ("                 ****  : ")
-print ("           1 = a*\n")
-print ("           2 = /\n")
-print ("           3 = *\n")
-print ("           4 = +\n")
-print ("           5 = -\n")
-gg = input ("     00000 :")
-if gg == 1 :
-    print (yy**dd)
-if gg == 2 :
-    print (yy/dd)
-if gg == 3 :
-    print (yy*dd)
-if gg == 4 :
-    print (yy+dd)
-if gg == 5 :
-    print (yy-dd)
+a = input ("ggg : ")
+print ("1 = **")
+print ("2 =  *")
+print ("3 =  /")
+print ("4 =  +")
+print ("5 =  -")
+b = input ("    : ")
+c = input ("999 : ")
+while True:
+    if b == 1 :
+        print (a**c)
+    if b == 2 :
+        print (a*c)
+    if b == 3 :
+        print (a/c)
+    if b == 4 :
+        print (a+c)
+    if b == 5 :
+        print (a-c)
+
+    a = a = input ("ggg : ")
+    print ("1 = **")
+    print ("2 =  *")
+    print ("3 =  /")
+    print ("4 =  +")
+    print ("5 =  -")
+    b = b = input ("    : ")
+    c = c = input ("999 : ")
